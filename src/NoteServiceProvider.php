@@ -19,7 +19,7 @@ class NoteServiceProvider extends ServiceProvider
          * default database/migrations directory.
          */
         $this->publishes([
-            __DIR__.'/migrations' => base_path('database/migrations')
+            __DIR__.'/migrations' => base_path('database/migrations'),
         ]);
     }
 
