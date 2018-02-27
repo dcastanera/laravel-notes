@@ -1,0 +1,21 @@
+{
+    "name": "dcastanera/notes",
+    "description": "Notes for Laravel 5 Models",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dan Castanera",
+            "email": "dcastanera@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "psr-4": {
+            "DCastanera\\Notes\\": "src/"
+        }
+    }
+}
