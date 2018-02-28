@@ -32,7 +32,7 @@ class Note extends Model
      * Eloquent Notable
      * @return  Note object
      */
-    function notable()
+    function noteable()
     {
         return $this->morphTo();
     }
