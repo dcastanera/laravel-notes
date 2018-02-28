@@ -36,6 +36,19 @@ In order to use the notes model you need to reference the package like so:
     use DCastanera\Notes\Note;
 
 
+### Add to Model
+In order for you to access notes we need to add the notes method to the desired
+object you wish to attach notes to.  You can do that by adding the following
+function to your object.
+
+
+    public function notes()
+    {
+        return $this->morphMany('DCastanera\Notes\Note', 'noteable');
+    }
+
+
+
 ### Creating a note
 In order to create a note you need to first create the note and attach it to the
 object in order to save the relationship.

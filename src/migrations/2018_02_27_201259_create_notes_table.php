@@ -15,7 +15,7 @@ class CreateNotesTable extends Migration
     {
         Schema::create('notes', function (Blueprint $table) {
             $table->increments('id');
-            $table->morphs('notable');
+            $table->morphs('noteable');
             $table->string('note');
             $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
