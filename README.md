@@ -1,11 +1,11 @@
-# Notes
+# Laravel Notes
 This Laravel package is a simple morphable object for attaching notes to any object class in your system.
 
 ## Installation
 To install this package you must use composer. Enter the following:
 
 
-    composer require dcastanera/notes
+    composer require dcastanera/laravel-notes
 
 
 ### Service Provider
