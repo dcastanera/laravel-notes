@@ -17,5 +17,12 @@
         "psr-4": {
             "DCastanera\\Notes\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DCastanera\\Notes\\NoteServiceProvider"
+            ]
+        }
     }
 }
